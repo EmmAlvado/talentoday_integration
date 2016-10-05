@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="80px" viewBox="0 0 20 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>pricing_checkmark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Pricing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pricing_checkmark">
+            <g id="Business-solutions-/-Pricing-/-Check-3" transform="translate(0.000000, 60.000000)">
+                <rect id="Circle" fill="#1ABC9C" x="1" y="1" width="18" height="18" rx="10"></rect>
+                <path d="M6.0465879,10.4742336 L9.06314925,13.063016 L13.9085684,7.15534773" id="Checkmark" stroke="#FFFFFF"></path>
+            </g>
+            <g id="Business-solutions-/-Pricing-/-Check-2" transform="translate(0.000000, 40.000000)">
+                <rect id="Circle" fill="#24A7BC" x="1" y="1" width="18" height="18" rx="10"></rect>
+                <path d="M6.0465879,10.4742336 L9.06314925,13.063016 L13.9085684,7.15534773" id="Checkmark" stroke="#FFFFFF"></path>
+            </g>
+            <g id="Business-solutions-/-Pricing-/-Check" transform="translate(0.000000, 20.000000)">
+                <rect id="Circle" fill="#2F92DD" x="1" y="1" width="18" height="18" rx="10"></rect>
+                <path d="M6.0465879,10.4742336 L9.06314925,13.063016 L13.9085684,7.15534773" id="Checkmark" stroke="#FFFFFF"></path>
+            </g>
+            <g id="Business-solutions-/-Pricing-/-Cross" fill="#B2B2B2">
+                <rect id="LIne" x="2" y="9.25" width="16" height="1.5" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

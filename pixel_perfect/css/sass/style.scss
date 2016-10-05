@@ -1,0 +1,430 @@
+
+body{
+	font-family: 'Roboto', sans-serif !important;
+	overflow-x: hidden;
+}
+
+.header{	
+	position: relative;
+	float: left;
+	padding: 50px 100px;
+	color: #fff;
+	background: linear-gradient(90deg, #3f99c7 0%, #54addc 10%, #62bbe6 50%, #54addc 90%, #3f99c7 100%);
+
+	.logo{
+	    position: relative;
+	    top: 0;
+	    left: 0;
+	    width: 163px;
+	    height: 30px;
+	    background: url(../img/svg/talentoday_logo.svg);
+	    background-size: 163px;
+	}
+
+	.header-menu{
+		text-align: right;
+		
+		.header-sub-menu{
+			text-transform: uppercase;
+			display: inline-block;	
+			margin-right: 20px;	
+		    font-weight: 400;
+		    font-size: 16px;
+		    line-height: 30px;
+		    cursor: pointer;
+
+		    img{
+		    	vertical-align: text-bottom;
+		    }
+		}
+
+	}
+
+	.block-right{
+		>div{
+			padding: 70px 40px 10px;	
+		}
+	}
+
+	.block-left{
+		margin-top: 130px;
+	}
+
+
+}
+
+.offers-menu{
+	background-color: $bg-grey-light;
+	border-bottom: 2px solid $bd-grey;
+	margin-bottom: 50px;
+
+	.sub-menu-offers{
+		margin: auto;
+		text-transform: uppercase;
+		padding: 20px 15px;
+		font-size: 16px;
+		color: $ft-grey;
+		width: 100px;
+		text-align: center;
+		display: inline-block;
+		cursor: pointer;
+
+		&.active{
+			color: $blue;
+			border-bottom: 2px solid $blue;
+		}
+	}
+}
+
+
+.offer-contener{
+	max-width: $screen-md;
+	margin: auto;
+	
+	.el-offer{
+		border: 2px solid $bd-grey;
+		background-color: $bg-grey-light;
+		padding: 20px;
+
+		.title{
+			font-size: 20px;
+			margin-bottom: 15px;
+		}
+
+		.price{
+			margin: 25px;
+
+			.device{
+				font-size: 30px;
+				vertical-align: top;
+			}
+
+			.number{
+				font-size: 46px;
+			}
+
+			.by-month{
+				font-size: 18px;
+
+				.little-device{
+					display: none;
+				}
+			}
+
+		}
+	}
+
+	.button-offer{
+		padding: 15px;
+		text-align: center;
+		color: #fff;
+		font-size: 20px;
+		cursor: pointer;
+		margin-bottom: 30px;
+		display: none;
+
+		&.offer-1{
+			background-color: $blue;
+		}
+		
+		&.offer-2{
+			background-color: $green-blue;
+		}
+
+		&.offer-3{
+			background-color: $green;
+		}
+
+	}
+
+	.fake-table{
+		text-align: left;
+		padding: 15px 40px;
+		float: left;
+		width: calc(100% - 80px);
+
+		.hight-cases{
+			height: 120px;
+			display: inline-block;
+			font-size: 16px;
+
+			&.pt60{
+				padding-top: 60px;
+				height: 60px;
+			}
+
+			.img-table{
+				content: "";
+				background-image: url("../img/svg/pricing_plans.svg");
+				background-size: 100%;
+				height: 50px;
+				width: 50px;
+				margin: auto;
+				margin-bottom: 10px;
+
+				&.basic{
+					background-position: 0 0;
+				}
+
+				&.premium{
+					background-position: 0 100px;
+				}
+
+				&.enterprise{
+					background-position: 0 200px;
+				}
+
+				&.empty{
+					background-image: url("");
+				}
+			}
+
+		}
+
+		.cases{
+			font-size: 12px;
+			height: 50px;
+			line-height: 50px;
+			display: inline-block;
+			vertical-align: middle;
+
+			>div{
+				line-height: 16px;
+				display: inline-block;
+				margin: auto;
+				vertical-align: middle;
+			}
+
+			.img-icone{
+				content: "";
+				background-image: url("../img/svg/pricing_checkmark.svg");
+				background-size: 100%;
+				height: 30px;
+				width: 30px;
+				margin: auto;
+
+				&.nul{
+					background-position: 0 0;
+				}
+
+				&.green{
+					background-position: 0 30px;
+				}
+				&.blue-g{
+					background-position: 0 60px;
+				}
+				&.blue{
+					background-position: 0 90px;
+				}
+			}
+		}
+
+	}
+
+
+}
+
+
+
+.footer{
+	.mid-grey{
+		display: none; 
+		background-color: $bg-grey-mid;
+		color: $ft-grey;
+		font-size: 16px;
+		padding-bottom: 20px;
+
+		.title{
+			color: #fff;
+			margin: 25px auto;
+		}
+	}
+
+	.dark-grey {
+
+		background-color: $bg-grey;
+		color: $ft-grey;
+		font-size: 16px;
+		padding-bottom: 20px;
+
+		.title{
+			color: #fff;
+			margin: 25px auto;
+		}
+
+		.b-footer{
+			height: 220px;
+			line-height: 26px;
+		}
+	}
+
+
+}
+
+
+//____________________________________________________________ GENERALIZE
+
+.f-l{
+	float: left;
+}
+
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.h2-like{
+	font-size: 36px;
+	line-height: 42px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.button-like{
+	border-radius: 5px;
+    padding: 15px 25px;
+    background-color: $blue-light;
+    margin: auto;
+	cursor: pointer;
+	color: #fff;
+
+		&.blue{
+			background-color: $blue;
+		}
+		
+		&.blue-g{
+			background-color: $green-blue;
+		}
+
+		&.green{
+			background-color: $green;
+		}
+}
+
+.large-btn{
+	width: 160px;
+}
+
+.center{
+	text-align: center;
+}
+
+.bg-grey-light{
+	background-color: $bg-grey-light;
+}
+
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+
+
+@media screen and (max-width: $screen-md) {
+	.md-center{
+		text-align: center;
+	}
+
+	.md-no-f{
+		float: none;
+	}
+
+	.offer-contener .el-offer .price .by-month .little-device{
+		display: inline-block;
+	}
+
+	.offer-contener .el-offer .price{
+		.by-month{
+			font-size: 16px;
+		}
+		.number{
+			display: block;
+			font-size: 42px;
+		}
+	} 
+
+	.offer-contener .fake-table{
+		.hight-cases{
+			height: 40px;
+
+			&.pt60{
+				padding-top: 0px;
+				height: 40px;
+			}					
+		}
+
+		.cases{
+			height: 40px;
+		}
+	} 
+
+	.button-offer{
+		display: block;
+	}
+
+
+	.mid-grey{
+		display: block !important;
+	}
+
+	.l-col-1-5{
+		width: 50% !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+// End Responsive Rules
+
+@include margin-system("");
+@media screen and (min-width: $screen-sm) { @include margin-system('s-'); }
+@media screen and (min-width: $screen-md) { @include margin-system('m-'); }
+@media screen and (min-width: $screen-lg) { @include margin-system('l-'); }
+
+// PADDING SYSTEM
+
+@include padding-system("");
+@media screen and (min-width: $screen-sm) { @include padding-system('s-'); }
+@media screen and (min-width: $screen-md) { @include padding-system('m-'); }
+@media screen and (min-width: $screen-lg) { @include padding-system('l-'); }
+
+// COL SYSTEM
+
+@include col-system("");
+@media screen and (max-width: $screen-xs) { @include col-system('xs-'); }
+@media screen and (max-width: $screen-sm) { @include col-system('s-'); }
+@media screen and (max-width: $screen-md) { @include col-system('m-'); }
+@media screen and (max-width: $screen-lg) { @include col-system('l-'); }
+
+// COL 5 SYSTEM
+
+@include col-5-system("");
+@media screen and (max-width: $screen-xs) { @include col-5-system('xs-'); }
+@media screen and (max-width: $screen-sm) { @include col-5-system('s-'); }
+@media screen and (max-width: $screen-md) { @include col-5-system('m-'); }
+@media screen and (max-width: $screen-lg) { @include col-5-system('l-'); }
+
+// Hide SYSTEM
+
+@include hide-system("");
+@media screen and (max-width: $screen-xs) { @include hide-system('xs-'); }
+@media screen and (max-width: $screen-sm) { @include hide-system('s-'); }
+@media screen and (max-width: $screen-md) { @include hide-system('m-'); }
+@media screen and (max-width: $screen-lg) { @include hide-system('l-'); }
